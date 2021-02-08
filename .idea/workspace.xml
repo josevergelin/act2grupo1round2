@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="02b0f944-1630-4c34-ba1d-760765ea1563" name="Default Changelist" comment="" />
+    <list default="true" id="02b0f944-1630-4c34-ba1d-760765ea1563" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,6 +35,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
@@ -34,10 +53,36 @@
       <updated>1612750499215</updated>
       <workItem from="1612750505058" duration="485000" />
       <workItem from="1612752274142" duration="108000" />
+      <workItem from="1612753545777" duration="697000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="677" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612754029312">
+      <screen x="0" y="23" width="1920" height="1004" />
+    </state>
+    <state x="677" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1004@0.23.1920.1004" timestamp="1612754029312" />
+    <state x="605" y="123" width="1215" height="804" key="dock-window-1" timestamp="1612754030689">
+      <screen x="0" y="23" width="1920" height="1004" />
+    </state>
+    <state x="605" y="123" width="1215" height="804" key="dock-window-1/0.23.1920.1004@0.23.1920.1004" timestamp="1612754030689" />
+    <state x="605" y="123" width="1215" height="804" key="dock-window-2" timestamp="1612754030689">
+      <screen x="0" y="23" width="1920" height="1004" />
+    </state>
+    <state x="605" y="123" width="1215" height="804" key="dock-window-2/0.23.1920.1004@0.23.1920.1004" timestamp="1612754030689" />
   </component>
 </project>
