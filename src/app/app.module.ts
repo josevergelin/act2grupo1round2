@@ -11,11 +11,13 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatGridListModule} from '@angular/material/grid-list';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { TablaComponent } from './tabla/tabla.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TablaComponent
   ],
   imports: [
     BrowserModule,
