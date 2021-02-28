@@ -2,31 +2,46 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-import { MatSliderModule } from '@angular/material/slider';
-import {MatCardModule} from '@angular/material/card';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AcordionComponent } from './acordion/acordion.component';
 import {MatMenuModule} from '@angular/material/menu';
-
-import {MatGridListModule} from '@angular/material/grid-list';
-
-import {MatToolbarModule} from '@angular/material/toolbar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
+import { AppiComponent } from './appi/appi.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { TabComponent } from './tab/tab.component';
+import { MatTabsModule } from '@angular/material/tabs';
 import { TablaComponent } from './tabla/tabla.component';
+import { CardComponent } from './card/card.component';
+import { BannerComponent } from './banner/banner.component';
+import {RouterModule,Routes} from '@angular/router';
+import { AppRountingModule } from './app-rounting.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TablaComponent
+    AcordionComponent,
+    AppiComponent,
+    TabComponent,
+    TablaComponent,
+    CardComponent,
+    BannerComponent,
   ],
   imports: [
     BrowserModule,
-    MatSliderModule,
-    MatCardModule,
+    NgbModule,
     MatMenuModule,
-    MatGridListModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
     MatToolbarModule,
-    BrowserAnimationsModule
+    MatIconModule,
+    MatButtonModule,
+    MatTabsModule,
+    AppRountingModule,
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
