@@ -21,6 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="19fb0fdb-ba31-404f-a49e-d46d388f4d0b" name="Default Changelist" comment="actualizacion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/appi/appi.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/appi/appi.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/card/card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/card/card.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab/tab.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tab/tab.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabla/tabla.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tabla/tabla.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
