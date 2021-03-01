@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19fb0fdb-ba31-404f-a49e-d46d388f4d0b" name="Default Changelist" comment="actualizacion" />
+    <list default="true" id="19fb0fdb-ba31-404f-a49e-d46d388f4d0b" name="Default Changelist" comment="actualizacion">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +55,7 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Angular Application">
+  <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Tests (act2grupo1round2)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
@@ -130,25 +132,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="actualizacion" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1540" height="272" key="GridCell.Tab.0.bottom" timestamp="1614538995733">
+    <state width="1540" height="272" key="GridCell.Tab.0.bottom" timestamp="1614572744564">
       <screen x="0" y="23" width="1920" height="1004" />
     </state>
-    <state width="1540" height="272" key="GridCell.Tab.0.bottom/0.23.1920.1004@0.23.1920.1004" timestamp="1614538995733" />
+    <state width="1540" height="272" key="GridCell.Tab.0.bottom/0.23.1920.1004@0.23.1920.1004" timestamp="1614572744564" />
     <state width="1595" height="277" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1614523417661" />
-    <state width="1540" height="272" key="GridCell.Tab.0.center" timestamp="1614538995732">
+    <state width="1540" height="272" key="GridCell.Tab.0.center" timestamp="1614572744563">
       <screen x="0" y="23" width="1920" height="1004" />
     </state>
-    <state width="1540" height="272" key="GridCell.Tab.0.center/0.23.1920.1004@0.23.1920.1004" timestamp="1614538995732" />
+    <state width="1540" height="272" key="GridCell.Tab.0.center/0.23.1920.1004@0.23.1920.1004" timestamp="1614572744563" />
     <state width="1595" height="277" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1614523417660" />
-    <state width="1540" height="272" key="GridCell.Tab.0.left" timestamp="1614538995732">
+    <state width="1540" height="272" key="GridCell.Tab.0.left" timestamp="1614572744563">
       <screen x="0" y="23" width="1920" height="1004" />
     </state>
-    <state width="1540" height="272" key="GridCell.Tab.0.left/0.23.1920.1004@0.23.1920.1004" timestamp="1614538995732" />
+    <state width="1540" height="272" key="GridCell.Tab.0.left/0.23.1920.1004@0.23.1920.1004" timestamp="1614572744563" />
     <state width="1595" height="277" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1614523417659" />
-    <state width="1540" height="272" key="GridCell.Tab.0.right" timestamp="1614538995733">
+    <state width="1540" height="272" key="GridCell.Tab.0.right" timestamp="1614572744564">
       <screen x="0" y="23" width="1920" height="1004" />
     </state>
-    <state width="1540" height="272" key="GridCell.Tab.0.right/0.23.1920.1004@0.23.1920.1004" timestamp="1614538995733" />
+    <state width="1540" height="272" key="GridCell.Tab.0.right/0.23.1920.1004@0.23.1920.1004" timestamp="1614572744564" />
     <state width="1595" height="277" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1614523417660" />
     <state x="446" y="303" key="MultipleFileMergeDialog" timestamp="1614524206934">
       <screen x="0" y="25" width="1680" height="1025" />
@@ -159,9 +161,9 @@
     </state>
     <state x="910" y="265" key="Vcs.Push.Dialog.v2/0.23.1920.1004@0.23.1920.1004" timestamp="1612842357557" />
     <state x="796" y="272" key="Vcs.Push.Dialog.v2/0.25.1680.1025@0.25.1680.1025" timestamp="1614524164146" />
-    <state x="924" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614536788870">
+    <state x="924" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614550950520">
       <screen x="0" y="23" width="1920" height="1004" />
     </state>
-    <state x="924" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1004@0.23.1920.1004" timestamp="1614536788870" />
+    <state x="924" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1004@0.23.1920.1004" timestamp="1614550950520" />
   </component>
 </project>
