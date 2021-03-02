@@ -18,6 +18,7 @@ import { CardComponent } from './card/card.component';
 import { BannerComponent } from './banner/banner.component';
 import {RouterModule,Routes} from '@angular/router';
 import { AppRountingModule } from './app-rounting.module';
+import {PersonalService} from "./core/services/personal.service";
 
 
 @NgModule({
@@ -43,7 +44,7 @@ import { AppRountingModule } from './app-rounting.module';
     AppRountingModule,
     RouterModule,
   ],
-  providers: [],
+  providers: [PersonalService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

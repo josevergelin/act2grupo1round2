@@ -11,30 +11,12 @@
           <th scope="col">CORREO</th>
         </tr>
         </thead>
-        <tbody class="text-center">
+        <tbody class="text-center" *ngFor="let item of personal">
         <tr>
-          <th scope="row">1</th>
-          <td>FAUSTO OVIEDO</td>
-          <td>DISEÑADOR GRÁFICO</td>
-          <td>foviedo@4devps.com</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>JOSE VERGELIN</td>
-          <td>DISEÑADOR UX/UI</td>
-          <td>jvergelin@4devps.com</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>EDUARDO GRIJALVA</td>
-          <td>DESARROLLADOR</td>
-          <td>egrijalva@4devps.com</td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td>AUGUSTO BASANTES</td>
-          <td>MARKETING</td>
-          <td>abasantes@4devps.com</td>
+          <td>{{item.nombres}}</td>
+          <td>{{item.apellidos}}</td>
+          <td>{{item.cargo}}</td>
+          <td>{{item.email}}</td>
         </tr>
         </tbody>
       </table>
