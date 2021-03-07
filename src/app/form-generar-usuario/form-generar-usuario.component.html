@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="raw py-5">
+    <div class="col">
+      <h2 class="">Formulario ingreso de usuarios</h2>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre de usuario</label>
+        <input type="email" class="form-control" id="name" name=name placeholder="My Name" #name>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email de usuario</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" #mail>
+      </div>
+      <div class="mb-3 text-right">
+        <button type="button" class="btn btn-primary" (click)="enviarUsuario(name.value); enviarMail(mail.value)">Ingresar</button>
+      </div>
+      <app-lista-usuaros [users]="listUsers" [mails]="listMails" (totalUsers)="addNewUser($event)"></app-lista-usuaros>
+
+      <div class="card">
+        <div class="card-body">
+          <h2 class="text-center">Usuarios ingresados <span class="badge bg-primary text-white">{{totalSuscritos}}</span></h2>
+        </div>
+      </div>
+      <br>
+    </div>
+  </div>
+</div>
+

@@ -19,6 +19,8 @@ import { BannerComponent } from './banner/banner.component';
 import {RouterModule,Routes} from '@angular/router';
 import { AppRountingModule } from './app-rounting.module';
 import {PersonalService} from "./core/services/personal.service";
+import { FormGenerarUsuarioComponent } from './form-generar-usuario/form-generar-usuario.component';
+import { ListaUsuarosComponent } from './lista-usuaros/lista-usuaros.component';
 
 
 @NgModule({
@@ -30,6 +32,8 @@ import {PersonalService} from "./core/services/personal.service";
     TablaComponent,
     CardComponent,
     BannerComponent,
+    FormGenerarUsuarioComponent,
+    ListaUsuarosComponent,
   ],
   imports: [
     BrowserModule,

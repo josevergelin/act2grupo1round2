@@ -5,6 +5,7 @@ import { TablaComponent } from './tabla/tabla.component';
 import { CardComponent } from './card/card.component';
 import { TabComponent } from './tab/tab.component';
 import { AcordionComponent } from './acordion/acordion.component';
+import { FormGenerarUsuarioComponent } from './form-generar-usuario/form-generar-usuario.component'
 
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: 'card', component: CardComponent},
   {path: 'tab', component: TabComponent},
   {path: 'acordion', component: AcordionComponent},
+  {path: 'form-generar-usuario', component: FormGenerarUsuarioComponent},
   {path: '', component: TablaComponent}
 ];
 @NgModule({
