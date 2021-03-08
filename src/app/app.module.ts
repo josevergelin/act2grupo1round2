@@ -22,6 +22,10 @@ import {PersonalService} from "./core/services/personal.service";
 import { FormGenerarUsuarioComponent } from './form-generar-usuario/form-generar-usuario.component';
 import { ListaUsuarosComponent } from './lista-usuaros/lista-usuaros.component';
 
+//Servicios
+import { EquipoService } from './core/services/equipo.service';
+
+
 
 @NgModule({
   declarations: [
@@ -48,7 +52,7 @@ import { ListaUsuarosComponent } from './lista-usuaros/lista-usuaros.component';
     AppRountingModule,
     RouterModule,
   ],
-  providers: [PersonalService],
+  providers: [PersonalService, EquipoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

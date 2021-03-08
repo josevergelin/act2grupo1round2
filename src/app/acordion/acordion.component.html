@@ -26,6 +26,23 @@
         <li class="list-group-item">“El diseño ilustra la filosofía técnica y económica de una empresa, y la imagen de la empresa revela el carácter de la misma, define su mentalidad. El diseñador es el filósofo de la empresa,</li>
         <li class="list-group-item">Creación de la marca, aseguramos que la identidad  de su empresa  sea coherente y consistente, llegando a posicionarse en la mente del público objetivo.</li>
       </ul>
+
     </div>
+    <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-12 col-xl-8 py-2">
+      <ul class="list-group">
+        <li class="list-group-item active bg-dark text-center">Nuestro Equipo de Trabajo</li>
+        <li class="list-group-item " *ngFor="let item of equipo">
+          <h4>Nombre: {{item.nombre}}</h4>
+          <h4>Especialidad: {{item.especialidad}}</h4>
+          <h4>E-mail: {{item.email}}</h4>
+        </li>
+      </ul>
+
+    </div>
+
+
   </div>
+
 </div>
+
+

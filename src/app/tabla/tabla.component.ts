@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PersonalService} from "../core/services/personal.service";
+import { PersonalService } from "../core/services/personal.service";
 
 @Component({
   selector: 'app-tabla',
@@ -12,6 +12,8 @@ export class TablaComponent implements OnInit {
   constructor(private servicePersonal:PersonalService) {
     this.personal = servicePersonal.obtenerPersonal();
   }
+
+
 
   ngOnInit(): void {
   }
